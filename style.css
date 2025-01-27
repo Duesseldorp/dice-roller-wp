@@ -1,0 +1,95 @@
+/* General Reset for Plugin Elements */
+.dr-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Styling */
+.dr-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Heading Styling */
+.dr-container .dr-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Explanation Box Styling */
+.dr-container .dr-explanation-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #000;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Form Styling */
+.dr-container #dr-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dr-container #dr-form label {
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+}
+
+.dr-container #dr-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.dr-container #dr-form input:focus {
+    border-color: #000;
+    outline: none;
+}
+
+.dr-container #dr-form button {
+    padding: 12px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dr-container #dr-form button:hover {
+    background-color: #333;
+}
+
+/* Output Styling */
+.dr-container .dr-output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.dr-container .dr-output p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #000;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
