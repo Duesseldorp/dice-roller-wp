@@ -9,8 +9,9 @@
 .dr-container {
     background-color: #fff;
     padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 500px;
     width: 100%;
     text-align: center;
@@ -65,10 +66,10 @@
 
 .dr-container #dr-form button {
     padding: 12px 20px;
-    background-color: #000;
+    background-color: #202021f0;
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
